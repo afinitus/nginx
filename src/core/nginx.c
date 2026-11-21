@@ -416,6 +416,9 @@ ngx_show_version_info(void)
         ngx_write_stderr(
             "Usage: nginx [-?hvVtTq] [-s signal] [-p prefix]" NGX_LINEFEED
             "             [-e filename] [-c filename] [-g directives]"
+#if (NGX_CONTROL_API)
+            " [-l addr]"
+#endif
                           NGX_LINEFEED NGX_LINEFEED
             "Options:" NGX_LINEFEED
             "  -?,-h         : this help" NGX_LINEFEED
