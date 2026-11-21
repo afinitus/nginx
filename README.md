@@ -213,7 +213,7 @@ The output of which should start with:
 ```
 
 # Asking questions and reporting issues
-See our [Support](SUPPORT.md) guidelines for information on how discuss the codebase, ask troubleshooting questions, and report issues.
+See our [Support](SUPPORT.md) guidelines for information on how to discuss the codebase, ask troubleshooting questions, and report issues.
 
 # Contributing code
 Please see the [Contributing](CONTRIBUTING.md) guide for information on how to contribute code.
