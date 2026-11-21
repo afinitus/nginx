@@ -1248,6 +1248,8 @@ ngx_control_parse_request_line(ngx_control_request_t *r)
                 ngx_str_set(&r->path, "/");
                 state = sw_http_;
                 break;
+            default:
+                return NGX_DECLINED;
             }
             break;
 
